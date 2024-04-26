@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geography Quiz</title>
+    <script src="script.js" defer></script> <!-- LINK TO JAVASCRIPT FILE/API HANDLING-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- link to the custom font -->
+    <style>
+        body { /* CSS for the body */
+            font-family: poppins;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        } 
+        .answer-container { /* CSS for the answer container */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .question { /* CSS for the question */
+            font-size: 28px;
+            margin-bottom: 50px;  
+            text-align: center;
+        }
+        .answer { /* CSS for the answer buttons */
+            padding: 15px 45px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+            background-color: black;
+            color:white;
+            transition: transform 0.3s, background-color 0.4s, box-shadow 0.3s;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            font-family: poppins;
+            margin-bottom: 30px;
+        }
+        .answer:hover { /* Styling for the answer buttons when hovered over */
+            background-color: grey;
+            transform:scale(1.1);
+        }
+    </style>
+</head>
+<body> 
+    <div class="answer-container"> <!-- Container for the quiz answers -->
+        <p class="question">Question goes here</p> <!-- Placeholder for the quiz question -->
+
+        <button class="answer">Answer 1</button> <!-- Placeholder for the quiz answers -->
+        <button class="answer">Answer 2</button> 
+        <button class="answer">Answer 3</button> 
+        <button class="answer">Answer 4</button> 
+    </div>
+</body>
+</html>
