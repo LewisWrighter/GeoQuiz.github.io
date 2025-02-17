@@ -1,5 +1,5 @@
 # 🌍 **GeoQuiz**  
-**A web-based quiz application built for my Web Technologies Module in my 2nd year of University.**  
+**A web-based quiz application built for my Web Technologies Module in my 2nd year of University.**  https://lewiswrighter.github.io/GeoQuiz.github.io/
 
 ---
 
